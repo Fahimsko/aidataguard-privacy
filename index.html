@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacybeleid – AI DataGuard</title>
+    <style>
+      :root { color-scheme: light; }
+      body { margin: 0; background: #f4f7fa; color: #10243a; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+      header { background: #10243a; color: #fff; padding: 28px 16px; }
+      header .wrap, main { max-width: 760px; margin: 0 auto; }
+      header h1 { margin: 0; font-size: 26px; }
+      header p { margin: 4px 0 0; color: #bfd3e2; }
+      main { padding: 24px 16px 48px; }
+      section { background: #fff; border: 1px solid #d9e1ea; border-radius: 14px; padding: 18px 22px; margin: 0 0 16px; }
+      h2 { font-size: 19px; margin: 0 0 8px; }
+      table { width: 100%; border-collapse: collapse; font-size: 15px; }
+      th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-top: 1px solid #d9e1ea; }
+      th { background: #f4f7fa; }
+      .muted { color: #4a5b6e; font-size: 14px; }
+      a { color: #0b7a6e; }
+      @media (max-width: 560px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 2px 0; } tr { border-top: 1px solid #d9e1ea; padding: 8px 0; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <h1>Privacybeleid AI DataGuard</h1>
+        <p>Chrome-extensie · versie 0.5 · laatst bijgewerkt: 18 november 2026</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>In het kort</h2>
+        <ul>
+          <li>AI DataGuard controleert <strong>lokaal in je browser</strong> of tekst en bestanden die je met een AI-dienst wilt delen mogelijk gevoelige gegevens bevatten.</li>
+          <li>Er wordt <strong>geen berichtinhoud en geen bestandsinhoud verzonden</strong>: niet naar ons en niet naar derden.</li>
+          <li>Berichtteksten, bestanden en gevonden gegevens worden <strong>niet opgeslagen</strong>.</li>
+          <li>Er zijn <strong>geen analytics, trackers, advertenties of externe servers</strong>.</li>
+          <li>Wij verkopen geen gegevens en delen geen gegevens met derden.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Wie zijn wij</h2>
+        <p>AI DataGuard is gevestigd in Dronten, Nederland. Contact over privacy: <a href="mailto:aidataguardnl@gmail.com">aidataguardnl@gmail.com</a>.</p>
+      </section>
+
+      <section>
+        <h2>Welke gegevens de extensie verwerkt</h2>
+        <p>De extensie werkt alleen op deze AI-diensten: chatgpt.com, chat.openai.com, claude.ai, gemini.google.com, perplexity.ai en chat.mistral.ai.</p>
+        <table>
+          <thead><tr><th>Gegeven</th><th>Waarom</th><th>Waar en hoe lang</th></tr></thead>
+          <tbody>
+            <tr><td>Tekst die je in het invoerveld van een AI-dienst wilt versturen</td><td>Controleren op mogelijk gevoelige gegevens, zoals e-mailadressen, IBAN's, BSN's, wachtwoorden, API-sleutels, namen, adressen, gezondheids- of personeelsonderwerpen en vertrouwelijkheidsmarkeringen</td><td>Alleen in het werkgeheugen van je browser, op het moment van versturen; niet bewaard</td></tr>
+            <tr><td>Bestanden die je toevoegt (tekst, Word, Excel, PowerPoint, OpenDocument, pdf)</td><td>Dezelfde controle, vóórdat de AI-dienst het bestand ontvangt</td><td>Alleen in het werkgeheugen van je browser, tijdens de controle; pdf's worden in een verborgen pagina van de extensie zelf gelezen, zonder netwerktoegang; niet bewaard</td></tr>
+            <tr><td>Tekst van berichten en bestanden, alleen als je het optionele lokale AI-model hebt aangezet</td><td>Namen van personen herkennen</td><td>Het AI-model zit in de extensie en draait op je eigen computer, in een verborgen pagina van de extensie zelf, zonder toegang tot andere websites. De tekst gaat niet naar een server en wordt niet bewaard. Er wordt niets gedownload</td></tr>
+            <tr><td>Gemaskeerde voorbeelden (bijv. <code>j•••@v•••.nl</code>) en bestandsnamen</td><td>In de waarschuwing laten zien wat er is gevonden</td><td>Alleen zolang de waarschuwing op je scherm staat</td></tr>
+            <tr><td>Instellingen en eigen bedrijfstermen</td><td>De extensie laten werken zoals jij wilt</td><td>Lokaal in je browser (<code>chrome.storage.local</code>), tot je ze wist of de extensie verwijdert</td></tr>
+            <tr><td>Tellers: aantal waarschuwingen per risiconiveau, categorie, AI-dienst en bron, en hoe vaak je terugging of doorging</td><td>Lokale statistieken voor jezelf</td><td>Lokaal in je browser, tot je ze wist; dit kun je uitzetten</td></tr>
+          </tbody>
+        </table>
+        <p class="muted">Niet opgeslagen: berichtteksten, bestandsinhoud, bestandsnamen, gevonden waarden, adressen of titels van gesprekken, tijdstippen per waarschuwing, gebruikers- of apparaat-ID's.</p>
+      </section>
+
+      <section>
+        <h2>Delen met derden</h2>
+        <p>Wij ontvangen geen gegevens van de extensie en delen dus ook niets met derden. De extensie maakt geen verbinding met servers van ons of van anderen.</p>
+        <p>Let op: als je na een waarschuwing kiest voor <em>Toch doorgaan</em> of <em>Toch toevoegen</em>, gaat je bericht of bestand naar de AI-dienst die je gebruikt. Wat die dienst ermee doet, valt onder het privacybeleid van die dienst (OpenAI, Anthropic, Google, Perplexity of Mistral AI). AI DataGuard is niet verbonden aan deze partijen.</p>
+      </section>
+
+      <section>
+        <h2>Beperkt gebruik (Chrome Web Store)</h2>
+        <p>Het gebruik van informatie door AI DataGuard voldoet aan het gebruikersgegevensbeleid van de Chrome Web Store (Chrome Web Store User Data Policy), inclusief de vereisten voor beperkt gebruik (Limited Use). Gegevens worden alleen gebruikt om de waarschuwingsfunctie te leveren, worden niet verkocht, niet gebruikt voor advertenties of kredietwaardigheid en niet gedeeld met derden.</p>
+      </section>
+
+      <section>
+        <h2>Jouw keuzes en rechten</h2>
+        <ul>
+          <li><strong>Inzien:</strong> instellingen en statistieken staan in de extensie zelf (pictogram → Instellingen / Statistieken).</li>
+          <li><strong>Wissen:</strong> via Instellingen → <em>Statistieken wissen</em>, <em>Instellingen terugzetten</em> of <em>Alle lokale gegevens wissen</em>. Bij het verwijderen van de extensie worden ook alle lokale gegevens verwijderd.</li>
+          <li><strong>Uitzetten:</strong> detectie, bestandscontrole, statistieken en afzonderlijke AI-diensten kun je uitzetten, tenzij je organisatie dit via Chrome-beleid heeft vastgezet.</li>
+        </ul>
+        <p>Omdat wij geen gegevens van je ontvangen, kunnen wij die ook niet voor je inzien of wissen; alles staat op je eigen apparaat. Vragen? Neem contact op via <a href="mailto:aidataguardnl@gmail.com">aidataguardnl@gmail.com</a>. Je hebt ook altijd het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens.</p>
+      </section>
+
+      <section>
+        <h2>Gebruik binnen een organisatie</h2>
+        <p>Als je werkgever AI DataGuard heeft uitgerold, kan die de bescherming centraal vastzetten via Chrome-beleid. Deze versie stuurt geen gegevens naar je werkgever: die kan niet zien wat je typt of welke waarschuwingen je kreeg.</p>
+      </section>
+
+      <section>
+        <h2>Wijzigingen</h2>
+        <p>Bij wijzigingen in dit beleid passen we de datum bovenaan aan. Bij belangrijke wijzigingen, bijvoorbeeld als de extensie ooit gegevens zou versturen, vragen we eerst je toestemming in de extensie.</p>
+      </section>
+    </main>
+  </body>
+</html>
